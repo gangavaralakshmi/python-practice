@@ -1,3 +1,8 @@
+def add(a,d):
+    add=a+d:
+    print (add)
+
+
 def toggelstring(s):
     #convert the string intpo a list
     s=list(s)
@@ -8,7 +13,7 @@ def toggelstring(s):
         else:
             t.append(c.lower())
     return " ".join(t)
-toggelstring("Abc")
+toggelstring()
 
 ###perfect number
 
@@ -38,6 +43,7 @@ def isPRIME(n):
             return  False
     if flag == 1:
             return True
+isPRIME(n)
 
 
 def numberPrimeFactors(n): #at P means >= P means either P or more than P
@@ -48,5 +54,5 @@ def numberPrimeFactors(n): #at P means >= P means either P or more than P
         if isPRIME(i) and n % i == 0:
             count +=1
     return count
-isSpecialnumber(6,3)
+isSpecialnumber()
 
